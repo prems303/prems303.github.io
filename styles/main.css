@@ -38,14 +38,14 @@
   width: 730px;
   height: 57px;
   margin-left: 29px;
-  margin-right: 21px;
+  margin-right: 5px;
 }
 
 .menulink
 {
   height: 37px;
   width: 150px;
-  text-align: center;
+  text-align: left;
   float: left;
   font-family: Geneva, Arial, Helvetica, Sans-serif;
   font-size: 16px;
