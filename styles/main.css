@@ -112,3 +112,11 @@ p
   text-align: justify;
   font-family: Georgia, Arial, Helvetica, Sans-serif;
 }
+
+ul 
+{
+  width: 730px;
+  padding-left: 40px;
+  text-align: left;
+  font-family: Georgia, Arial, Helvetica, Sans-serif;
+}
