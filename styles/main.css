@@ -1,0 +1,122 @@
+#header 
+{
+  position: relative;
+  width: 730px;
+  height: 150px;
+  margin-left: 29px;
+  margin-right: 21px;
+  background: url(../images/skytower.jpg);
+}
+
+#page 
+{
+  margin: 0 auto 0 auto;
+  display: table;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #6699ff;
+  width: 730px;
+}
+
+.title
+{
+  position: relative;
+  left: 30px;
+  top: 22px;
+  text-align: left;
+  font-family: Georgia, Helvetica, Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+#bar
+{
+  position: relative;;
+  width: 730px;
+  height: 57px;
+  margin-left: 29px;
+  margin-right: 5px;
+}
+
+.menulink
+{
+  height: 37px;
+  width: 150px;
+  text-align: center;
+  float: center;
+  font-family: Geneva, Arial, Helvetica, Sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: blue;
+  padding-top: 3px;
+  background-color: #f2f2f2
+}
+
+.menulink a
+{
+  color: #0000ff;
+}
+
+.menulink a:hover
+{
+  color: #6699ff;
+}
+
+a
+{
+  text-decoration: none;
+  color: #252F33;
+}
+
+#pageContent 
+{
+  height: auto;
+  width: 680px;
+  padding-bottom: 10px;
+}
+
+.articleTitle
+{
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffff00;
+}
+
+#footer
+{
+  width: 730px;
+  height: 60px;
+  text-align: center;
+  font-size: 12px;
+  color: #0000ff;
+  padding-top: 32px;
+}
+
+html, body
+{
+  text-align: center;
+  background-color: #6699ff;
+}
+
+p 
+{
+  width: 730px;
+  padding-left: 25px;
+  text-align: justify;
+  font-family: Georgia, Arial, Helvetica, Sans-serif;
+}
+
+ul 
+{
+  width: 730px;
+  padding-left: 40px;
+  text-align: left;
+  font-family: Georgia, Arial, Helvetica, Sans-serif;
+}
