@@ -36,21 +36,21 @@
   position: relative;;
   width: 730px;
   height: 57px;
-  margin-left: 29px;
-  margin-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .menulink
 {
   height: 37px;
-  width: 150px;
+  width: 160px;
   text-align: center;
   float: center;
   font-family: Geneva, Arial, Helvetica, Sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   color: blue;
-  padding-top: 3px;
+  padding-top: 1px;
   background-color: #f2f2f2
 }
 
@@ -113,10 +113,22 @@ p
   font-family: Georgia, Arial, Helvetica, Sans-serif;
 }
 
-ul 
+ul li
 {
   width: 730px;
-  padding-left: 40px;
+  padding-left: 20px;
   text-align: left;
   font-family: Georgia, Arial, Helvetica, Sans-serif;
+}
+
+ul li a
+{
+  text-decoration: none;
+  color: #000000;
+  font-family: Georgia, Arial, Helvetica, Sans-serif;
+}
+
+ul li a:hover
+{
+  color: #ffe0cc;
 }
