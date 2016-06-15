@@ -1,5 +1,4 @@
-
-#header 
+#header
 {
   position: relative;
   width: 730px;
@@ -8,8 +7,7 @@
   margin-right: 21px;
   background: url(../images/skytower.jpg);
 }
-
-#page 
+#page
 {
   margin: 0 auto 0 auto;
   display: table;
@@ -19,7 +17,6 @@
   background: #6699ff;
   width: 730px;
 }
-
 .title
 {
   position: relative;
@@ -31,7 +28,6 @@
   font-weight: bold;
   color: #0000ff;
 }
-
 #bar
 {
   position: relative;;
@@ -40,7 +36,6 @@
   margin-left: 29px;
   margin-right: 5px;
 }
-
 .menulink
 {
   height: 37px;
@@ -53,30 +48,25 @@
   color: #EAD5A8;
   padding-top: 18px;
 }
-
 .menulink a
 {
   color: #EAD5A8;
 }
-
 .menulink a:hover
 {
   color: #DEBB73;
 }
-
 a
 {
   text-decoration: none;
-  color: #252F33;
+ color: #252F33;
 }
-
-#pageContent 
+#pageContent
 {
   height: auto;
   width: 680px;
   padding-bottom: 10px;
 }
-
 .articleTitle
 {
   text-align: left;
@@ -88,7 +78,6 @@ a
   font-weight: bold;
   color: #cc3300;
 }
-
 #footer
 {
   width: 730px;
@@ -98,22 +87,19 @@ a
   color: #0000ff;
   padding-top: 32px;
 }
-
 html, body
 {
   text-align: center;
   background-color: #6699ff;
 }
-
-p 
+p
 {
   width: 730px;
   padding-left: 25px;
   text-align: justify;
   font-family: Georgia, Arial, Helvetica, Sans-serif;
 }
-
-ul 
+ul
 {
   width: 730px;
   padding-left: 40px;
