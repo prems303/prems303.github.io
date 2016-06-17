@@ -101,7 +101,7 @@ a
  
 #ColumnSeparator1 {
     font-family: Verdana, Arial, Helvetica, Sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     float:left;
     width: 340px;
@@ -110,7 +110,7 @@ a
  
 #ColumnSeparator2 {
     font-family: Verdana, Arial, Helvetica, Sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     float:right;
     width: 390px;
@@ -120,15 +120,13 @@ a
 #footer
 {
   width: 730px;
-  height: 60px;
+  height: 30px;
   text-align: center;
   font-size: 14px;
   color: #0000ff;
   padding-top: 32px;
   padding-left: 50px;
 }
- 
- 
  
 p
 {
