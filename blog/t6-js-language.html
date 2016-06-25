@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Problem Solving</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="page">
+    <div id="header">
+      <div class="title">Learning Javascript Language</div>
+    </div>
+    <div id="bar"><br />
+      <button class="menulink" type=""><a href="../index.html">Home</a></button>&nbsp;&nbsp;
+      <button class="menulink" type=""><a href="../index.html">Blog</a></button>&nbsp;&nbsp;
+      <button class="menulink" type=""><a href="../about.html">About</a></button>&nbsp;&nbsp;
+      <button class="menulink" type=""><a href="#">Contact</a></button>&nbsp;&nbsp;
+    </div>
+    <div id="pageContent"><br /><br /><br /><br />
+      <div class="articleTitle">In the JavaScript language, describe all the use cases for each of:</div>
+    </div>
+      <p><strong>parentheses ():</strong> - e.g. '1. Execute a function var result = doSomething()'<br /><br />
+ 
+      Parentheses are most commonly used when passing information into a function, or to provide information to loops (for, while) and conditionals (if, else if).<br /><br />
+       
+      The JavaScript syntax dictates that a function definition must have a pair of parentheses even if the function doesn't actually need any arguments. Likewise, when calling a function (i.e. telling it to do what it's supposed to do), the (possibly empty) pair of parentheses is absolutely required.<br /><br />
+ 
+      Parentheses have multiple functions relating to functions and structures. They are used to contain a list of parameters passed to functions and control structures and they are used to group expressions to control the order of execution. Some functions have no parameters and in this case, the space between parentheses is blank.
+
+      <pre><code>
+      Example: 
+        var a = (4 + 3) * 2;       // Grouping expressions
+            if (a > 10) {          // Containing expressions
+              line(a, 0, a, 100);  // Containing a list of parameters
+            }</code></pre> </p>
+
+      <p><strong>brackets [&nbsp;]:</strong><br /><br />
+      Square brackets are used to index (access) elements in arrays and also Strings. Specifically cells[i] will evaluate to the ith item in the array named cells.<br /><br />
+      Square Brackets [ ] are also used to access properties of Objects.<br /> 
+      <pre><code>
+      Example:
+      var myObject = {
+        name: 'Prem'
+        favorite_food: 'Butter Chicken'
+      }
+ 
+      console.log(myObject['name']) // Logs 'Prem'
+ 
+      console.log(myObject.name') // Simpler form of above, also logs 'Prem'
+      </code></pre></p>
+
+      <p><strong>braces {&nbsp;}:</strong><br /><br />
+ 
+      The braces or curly brackets are used to define the start and end of the function, they also separate code into blocks within the function. The braces help JavaScript to understand the structure of our script and what we want it to do.</p>
+      <pre><code>
+      Example:
+      function MyFunction() {
+      alert("Hello world!")
+      }</code></pre>
+      <p>It is also used to separate blocks of code within the function, like this:</p>
+      <pre><code> 
+      function MyFunction() {
+      if (a===1) {
+      alert("Hello world!")
+      } else {
+      alert("Goodbye world!")
+      }
+      }</code></pre>
+       
+      <p>This means that if the variable "a" is equal to 1 the message "Hello world!" is displayed, else the message "Goodbye world!" is displayed.</p>
+
+      <p><strong>single quotes '&nbsp' &amp; double quotes "&nbsp;":</strong><br /><br />
+      JavaScript, allows you to use either double quote or single quote marks to create a string.</p> 
+      <pre><code>
+      Example:
+
+      var x ="Hello World!"; 
+      var x = ‘Hello World!’;</code></pre>
+
+      <p>Mixing up the single and double quote in same string is not allowed.</p>
+       
+      <pre><code>
+      Example:
+
+      var x = ‘Hello World!";</code></pre> 
+
+
+      <p>Quote mark within a quote:<br /><br />
+
+      The use of quotations within a string generates error.</p>
+      <pre><code>
+      Example:
+
+      var message=’It’s alright’;</code></pre>
+
+
+      <p>There is no way for the browser to know which one is the closing quote. The interpreter sees the second quote in 'Javascript's as the ending quote - so rest of the line becomes invalid.<br /><br />
+
+      To escape a character you precede it with forward slash mark \.</p> 
+
+      <pre><code>
+      Example:
+
+      var message=’It\’s alright’;</code></pre>
+
+              
+    </div>
+    
+    <div id="footer">Web Design by Prem Sagar Thogaru</div>
+  </div>
+</body>
+</html>

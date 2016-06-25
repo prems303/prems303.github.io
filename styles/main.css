@@ -143,3 +143,18 @@ ul
   text-align: left;
   font-family: Georgia, Arial, Helvetica, Sans-serif;
 }
+
+pre, code{
+         direction: ltr;
+         text-align: left;
+         width:700px;
+}
+pre {border: solid 1px blue;
+         font-size: 1.3 em;
+         color: blue;
+         margin: 10px;
+         padding:5px;
+         background: #DFE6E8}
+
+code {font-size:1.0em;
+         color: #000000}
