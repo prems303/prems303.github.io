@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scope</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="page">
+    <div id="header">
+      <div class="title">Scope</div>
+    </div>
+    <div id="bar"><br />
+      <button class="menulink" type=""><a href="../index.html">Home</a></button>&nbsp;&nbsp;
+      <button class="menulink" type=""><a href="../index.html">Blog</a></button>&nbsp;&nbsp;
+      <button class="menulink" type=""><a href="../about.html">About</a></button>&nbsp;&nbsp;
+      <button class="menulink" type=""><a href="#">Contact</a></button>&nbsp;&nbsp;
+    </div><br /><br />
+    
+      <p>In Javascript, scope is the set of variables, objects and functions you have access to. There are two types of variables – Global variables and Local Variables. A global variable is accessible from anywhere in the code whereas a local variable can be accessed only with the declared function.<br /><br />
+ 
+      Example of Global Variable</p>
+      
+      <pre><code> 
+      var a = 1;
+       
+      function one() {
+        console.log(a);  //returns ‘1’
+      }</code></pre>
+
+      <p>Example of Local Variable</p>
+       
+       <pre><code>
+      function two() {
+        var a = 2;
+          console.log(a);  //returns '2' 
+      }</code></pre>
+
+
+      <p>Another example of Local Variable</p>
+       
+       <pre><code>
+      var a = 1;
+ 
+      function two() {
+        var a = 2;
+          console.log(a); 
+      }
+      //returns 2 instead of 1 as ‘a’ is declared again in a function 
+      //which will overwrite the globally declared value.
+      </code></pre><br /><br />
+    
+    <div id="footer">Web Design by Prem Sagar Thogaru</div>
+  </div>
+</body>
+</html>
